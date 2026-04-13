@@ -1,10 +1,9 @@
 import { useFetch } from "./hooks/useFetch";
-import { fetchBanners, fetchBlogs, fetchServices } from "./services/api";
+import { fetchBanners } from "./services/api";
 import AboutSection from "./components/AboutSection";
 import ServicesSection from "./components/ServicesSection";
 import BannerSection from "./components/BannerSection";
 import "./App.css";
-import Navbar from "./components/Navbar";
 import VideoSection from "./components/VideoSection";
 import HeroSection from "./components/HeroSection";
 
